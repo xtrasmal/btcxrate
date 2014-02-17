@@ -38,7 +38,7 @@ _btc.go = function(){
 	// Make the actual CORS request.
 	function makeCorsRequest() {
 	
-		var url = 'http://api.coindesk.com/v1/bpi/currentprice.json';
+		var url = _btc.api;
 
 		var xhr = createCORSRequest('GET', url);
 		if (!xhr) {
@@ -52,7 +52,7 @@ _btc.go = function(){
 		};
 
 		xhr.onerror = function() {
-			alert('Woops, there was an error making the request.');
+			_btc.trace('Woops, there was an error making the request.');
 		};
 
 		xhr.send();
@@ -193,6 +193,8 @@ _btc.calculateValue = function (dataItems){
 	}
 
 }
+
+// JSONP Alternative using PHP proxy: no longer used
 
 // _btc.go = function(){
 // 	_btc.removeScript();
