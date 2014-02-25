@@ -78,3 +78,5 @@ _btc.refreshinterval = [integer] - refresh interval in minutes. Default 1 minute
 _btc.currencytofixed = [integer] - default 2. Takes care of rounding (fiat) currency that is calculated from a BTC value. If for some reason you need more (or less) precision than you can override it here (globally).
 <br/><br/>
 _btc.btctofixed = [integer] - default is NULL (no rounding of BTC). Same use as above. As explained at the data attributes section, you can also set it per HTML element (and the data attribute always takes preference over the globally set value).
+<h2>Donations? yes please :-)</h2>
+<a target="_blank" style="font-size:16px;color:red" href="https://blockchain.info/qr?data=13VmjaK6B63RVHXSZp3v4XBh3PwEeZscko&size=200">13VmjaK6B63RVHXSZp3v4XBh3PwEeZscko</a>
