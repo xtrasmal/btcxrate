@@ -7,7 +7,8 @@ Simply include the script on any page and use standard HTML5 data attributes to 
 
 Like this: <br/>
 &lt;script src=&quot;btc.xrate.0.3.min.js&quot;&gt;&lt;/script&gt; &lt;!-- That's all you need --&gt;
-
+<br/><br/>
+For a simple (working) Demo page, check <a target="_blank" href="http://www.europehosting.com/external/demos/btcxrate/">here</a>
 
 <h2>Usage examples:</h2>
 <p>
